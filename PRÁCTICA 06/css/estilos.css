@@ -1,0 +1,24 @@
+#cabecera{
+	background-color: orange;
+	height: 200px;
+}
+
+#menu{
+	background-color: yellow;
+	height: 40px;
+}
+
+#galeria_principal{
+	background-color: blue;
+	height: 300px;
+}
+
+#contenido_izq{
+	background-color: brown;
+	height: 500px;
+}
+
+#contenido_der{
+	background-color: red;
+	height: 600px;
+}

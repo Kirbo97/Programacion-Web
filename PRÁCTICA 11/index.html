@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pr&aacute;ctica 15</title>
+	<script type="text/javascript" src="js/funciones.js"></script>
+	<!--<script type="text/javascript" src="js/funcionesJqueryXML.js?v=3"></script>-->
+	
+	<!--<script type="text/javascript" src="js/funcionesJqueryJSON.js"></script>-->
+	<script type="text/javascript" src="js/ajax.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/mediagroove.css"/>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body onload="consultarPersonas()">
+
+<form name="frmIngresoPersona" onsubmit="return validarFormulario()">
+	<table>
+		<tr><td>C&eacute;dula:</td>
+			<td><input type="text" name="cedula" id="cedula"/></td></tr>	
+		<tr><td>Nombres:</td>
+			<td><input type="text" name="nombres" id="nombres"/></td></tr>
+		<tr><td>Apellidos:</td>
+			<td><input type="text" name="apellidos" id="apellidos"/></td></tr>
+		<tr><td>Edad:</td>
+			<td><input type="text" name="edad" id="edad"/></td></tr>
+		<tr><td colspan="2"><input type="submit" value="Ingresar"></td></tr>
+	</table>
+</form>
+
+<form onsubmit="return consultarPersonas();">
+	<input type="text" name="descripcion" id="descripcion">
+	<select name="tipo" id="tipo">
+		<option value="todos">Todos</option>
+		<option value="cedula">C&eacute;dula</option>
+		<option value="nombres">Nombres</option>
+		<option value="apellidos">Apellidos</option>
+		<!--<option value="edad">Edad</option>-->
+	</select>
+	<input type="submit" value="Consultar">
+</form>
+
+
+
+
+<div id="resultado">
+	
+</div>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+/*
+  project: CSS - table design
+  type: stylesheet
+  description: foggycountry
+*/
+#tabla2 {
+  border-collapse: collapse;
+  border: 2px solid #C5BA85;
+  font: normal 10px verdana, arial, helvetica, sans-serif;
+  color: #333333;
+  background: #BFE756;
+  }
+#tabla2 caption {
+  padding: 0 .4em .4em;
+  text-align: left;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333333;
+  background: transparent;
+  }
+#tabla2 td,#tabla2 th {
+  color: #636363;
+  border: 1px solid #cc9;
+  padding: .3em;
+  }
+#tabla2 thead th,#tabla2 tfoot th {
+  font: normal 11px georgia, verdana, arial, helvetica, sans-serif;
+  border: transparent;
+  text-align: left;
+  font-size: 1em;
+  font-weight: bold;
+  color: #333333;
+  background: #C5BA85;
+  }
+#tabla2 tbody td a {
+  background: transparent;
+  color: #72724c;
+  text-decoration: none;
+  }
+#tabla2 tbody td a:hover {
+  background: transparent;
+  color: #636363;
+  }
+#tabla2 tbody th a {
+  font: normal 11px georgia, verdana, arial, helvetica, sans-serif;
+  background: transparent;
+  color: #333333;
+  text-decoration: none;
+  font-weight:normal;
+  }
+#tabla2 tbody th a:hover {
+  background: transparent;
+  color: #333333;
+  }
+#tabla2 tbody th,#tabla2 tbody td {
+  vertical-align: top;
+  text-align: left;
+  }
+#tabla2 tfoot td {
+  border: 1px solid #C5BA85;
+  background: #C5BA85;
+  }
+.odd {
+  background: #91AB59;
+  }
+#tabla2 tbody tr:hover {
+  color: #333444;
+  background: #DDCFAE;
+  cursor: pointer;
+  }
+
+ #tabla2 tbody tr.odd:hover {
+  background-color: #e5efff;
+ } 
+
+#tabla2 tbody tr:hover th,
+#tabla2 tbody tr.odd:hover th {
+  background: #C5BA85;
+  }

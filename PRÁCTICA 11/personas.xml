@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personas><persona><cedula>0999999991</cedula><nombres>Pedro</nombres><apellidos>Torres</apellidos><edad>20</edad></persona><persona><cedula>0999999992</cedula><nombres>Jorge</nombres><apellidos>Torres</apellidos><edad>22</edad></persona><persona><cedula>0999999993</cedula><nombres>Fernando</nombres><apellidos>Torres</apellidos><edad>23</edad><ubicacion pais="EC" provincia="09" ciudad="Guayaquil"/></persona></personas>

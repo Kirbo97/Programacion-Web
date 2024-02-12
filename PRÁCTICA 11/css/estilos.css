@@ -1,0 +1,32 @@
+p{
+	text-align: justify;
+}
+
+/*p:first-letter{
+	font-size: 30px;
+}*/
+
+.letram{
+	font-size: 30px;
+}
+
+
+#principal{
+	background-color: blue;
+	/*padding: 30px;*/
+	/*padding-top:20px;
+	padding-bottom:20px;*/
+	padding:20px 0px 20px 0px;
+}
+
+#secundario{
+	/*margin-left: 20px;
+	margin-right: 20px;*/
+	margin: 0px 20px 0px 20px;
+	background-color: orange;	
+	/*padding-top: 20px;*/
+}
+
+.icono:hover{
+	cursor: pointer;
+}
