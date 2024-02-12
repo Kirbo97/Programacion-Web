@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Práctica 4</title>
+	<script type="text/javascript">
+		function consultarTitulo(){
+			//alert(document.title);
+			console.log(document.title);
+		}
+
+		function contarP(){
+			var parrafos = document.getElementsByTagName("p");
+			alert(parrafos.length);
+			for (var i = 0; i < parrafos.length; i++) {
+				console.log(parrafos[i]);
+			}
+		}
+
+		function validarUsuario(){
+			var usuario = document.getElementById("usuario");
+			alert(usuario.value);
+			console.log(usuario.value);
+
+		}
+
+		function cambiarColor(color){
+			var parrafos = document.getElementsByTagName("p");
+			for (var i = 0; i < parrafos.length; i++) {
+				parrafos[i].setAttribute("class","estilo"+color);
+			}
+		}
+	</script>
+	<style type="text/css">
+		.estilo1{
+			color: blue;
+		}
+
+		.estilo2{
+			color: green;
+		}
+
+	</style>
+</head>
+<body>
+
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+
+<input type="button" value="consultar Título" onclick="consultarTitulo()">
+<input type="button" value="contar P" onclick="contarP()">
+<input type="text" name="usuario" id="usuario">
+<input type="button" value="validar Usuario" onclick="validarUsuario()">
+<input type="button" value="color 1" onclick="cambiarColor('1')">
+<input type="button" value="color 2" onclick="cambiarColor('2')">
+
+</body>
+</html>
