@@ -1,0 +1,19 @@
+h1 { color: whitesmoke; }
+
+p {
+    color: whitesmoke;
+    font-size: 20px;
+  }
+      
+img.mediano{
+  border: 2px solid #d3baa0;
+  width: 390px;
+  height: 370px;
+}
+
+.pequeño img{
+  border: 2px solid #d3baa0;
+  width: 130px;
+  height: 130px;
+  cursor: pointer;
+}
